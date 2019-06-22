@@ -2,8 +2,8 @@
 //Все права на библиотеку CyberLib принадлежат компании CarMonitor.ru
 //Обновления библиотеки скачивайте на сайте http://www.cyber-place.ru/showthread.php?p=3789#post3789
 
-#ifndef CyberLib_H
-#define CyberLib_H
+#ifndef asuhaFastInoLib_H
+#define asuhaFastInoLib_H
 
 // #include <inttypes.h>
 // #include <avr/pgmspace.h>
@@ -785,9 +785,9 @@ void D_Pin2(uint16_t Pin, uint16_t Status);
 
 		
 #else
-#error  Ваш контроллер библиотекой CyBerLib не поддерживается
+#error  Ваш контроллер библиотекой asuhaFastInoLib не поддерживается
 #endif
 
 	
 //**************End***************************
-#endif //CyberLib_H
+#endif //asuhaFastInoLib_H
